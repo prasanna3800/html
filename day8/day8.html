@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up page</title>
+</head>
+<body>
+    <form action="./login.html" method="post">
+        <fieldset>
+            <center>
+                <h2>signup here!</h2>
+            <label for="username">Username:</label>
+             <input type="text" id="username" name="username" placeholder ="user name" required><br>
+            <br>
+            <label for="gmail">Gmail:</label>
+             <input type="gmail" id="gmail" name="gmail" placeholder="enter gmail" pattern="[a-z0-9]+@[a-z]+\.[a-z]+" required><br>
+            <br>
+            <label for="number">mobile no.:</label>
+            <input type=" postive number" id="mobile no."  name= "mobile no." placeholder="enter mobile no." pattern="[0-9]{10}" required><br>
+            <br>
+            <label for="pass">password:</label>
+            <input type="password" id="password" name="password" placeholder="password" pattern="(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z])(?=.*[$&@!#^%*])[0-9A-Za-z!@#$%^&*]{8}" required><br>
+            <br>
+            <label for="pass">password:</label>
+            <input type="password" id="password" name="password" placeholder="confirm password" pattern="(?.*[0-9])(?.*[A-Z])(?.*[a-z])(?=.*[!@#$%^&*])[0-9a-zA-Z!@#$%^&*]{8}" required><br>
+            <br>
+            <input type="submit" value="signup" >
+            <h6>Already have an account <a href="./login.html">login</a>
+            </h6></center>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my first page</title>
+</head>
+<body>
+    <form action="./submitted.html" method="post">
+        <div>
+            <label for="fname">firstname:</label>
+            <input type="text" id="fname" name="fname" placeholder="enter" required>
+        </div>
+        <br>
+        <div>
+            <label for="lname">lasttname:</label>
+            <input type="text" id="lname" name="lname" placeholder="enter" required> 
+        </div>
+        <br>
+        <div>
+            <label for="pass">password:</label>
+            <input type="password" id="password" name="password" placeholder="password" required>    
+        </div>
+        <br>
+        <div>
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email" placeholder="@gmail.com" required>  
+        </div>
+        <br>
+        <div>
+            <label for="mobile no.">mobile no:</label>
+            <input type="mobile no." id="mobile no." name="mobile no." placeholder="+91" required>  
+        </div>
+        <br>
+        <div>
+            Gender:
+            <label for="female">female</label>
+            <input type="radio" id="female" name="gender" value="female" >
+
+            <label for="male">male</label>
+            <input type="radio" id="male" name="gender" value="male" >
+        </div>
+        <br>
+        <div>
+             Qualification:
+             <select name="dropdown" >
+                <option value="bachelors degree"> bachelors degree</option>
+                <option value="masters degree">masters degree</option>
+                <option value=" diploma">diploma</option>
+             </select>
+        </div>
+        <br>
+        <div>
+            Skills you know:
+            <br>
+            <input type="checkbox">C <br>
+            <input type="checkbox">Java <br>
+            <input type="checkbox">Python <br>
+            <input type="checkbox">Html <br>
+        </div> <br>
+        <div>
+            <input type="submit">
+        </div>
+        <br>
+        <div>
+            <input type="reset">
+        </div>
+    </form>
+</body>
+</html>
